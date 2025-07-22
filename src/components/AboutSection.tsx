@@ -56,10 +56,20 @@ const AboutSection = () => {
                 <p className="text-2xl font-bold text-primary">GPA</p>
                 <p className="text-sm text-muted-foreground">3.41 / 4.0</p>
               </div>
-              <div className="text-center p-4 bg-gradient-secondary rounded-2xl">
-                <p className="text-2xl font-bold text-primary">Languages</p>
-                <p className="text-sm text-muted-foreground">Arabic, English (C2)</p>
-              </div>
+               <div className="text-center p-4 bg-gradient-secondary rounded-2xl">
+                 <p className="text-2xl font-bold text-primary">Languages</p>
+                 <p className="text-sm text-muted-foreground">
+                   Arabic, 
+                   <a 
+                     href="https://cert.efset.org/en/Zrp11M" 
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                     className="hover:text-primary transition-colors hover:underline ml-1"
+                   >
+                     English (C2)
+                   </a>
+                 </p>
+               </div>
             </div>
           </div>
           

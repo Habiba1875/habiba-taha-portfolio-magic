@@ -9,40 +9,40 @@ const ProjectsSection = () => {
       title: "Real Estate Website",
       description: "Modern real estate platform built with Angular and Bootstrap, featuring property listings, search functionality, and responsive design for optimal user experience across all devices.",
       technologies: ["Angular", "TypeScript", "Bootstrap", "CSS3", "Responsive Design"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/Habiba1875/real-estate",
+      liveUrl: "https://habiba1875.github.io/real-estate/",
       featured: true
     },
     {
       title: "Weather App",
       description: "Interactive weather application that provides real-time weather information using OpenWeatherMap API. Features include location-based forecasts and detailed weather metrics.",
       technologies: ["JavaScript", "API Integration", "HTML5", "CSS3", "Responsive Design"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/Habiba1875/weather-",
+      liveUrl: "https://habiba1875.github.io/weather-/",
       featured: true
     },
     {
       title: "Login Form",
       description: "Secure and elegant login form with client-side validation, featuring smooth animations and responsive design patterns for enhanced user experience.",
       technologies: ["HTML5", "CSS3", "JavaScript", "Form Validation", "UI/UX"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/Habiba1875/Login",
+      liveUrl: "https://habiba1875.github.io/Login/",
       featured: false
     },
     {
       title: "Bookmarker App",
       description: "Bookmark management application that allows users to save, organize, and manage their favorite links with local storage integration for data persistence.",
       technologies: ["JavaScript", "Local Storage", "DOM Manipulation", "HTML5", "CSS3"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/Habiba1875/bookmarker",
+      liveUrl: "https://habiba1875.github.io/bookmarker/",
       featured: false
     },
     {
       title: "DevFolio Landing Page",
       description: "Professional portfolio landing page showcasing responsive design principles with Bootstrap framework, featuring smooth scrolling and modern UI elements.",
       technologies: ["Bootstrap", "HTML5", "CSS3", "Responsive Design", "jQuery"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/Habiba1875/DevfolioBS",
+      liveUrl: "https://habiba1875.github.io/DevfolioBS/",
       featured: false
     }
   ];

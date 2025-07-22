@@ -1,6 +1,6 @@
 import { ArrowDown, Download, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import habibaPortrait from "@/assets/habiba-portrait.jpg";
+import habibaPortrait from "@/assets/habiba-photo.jpg";
 
 const HeroSection = () => {
   return (

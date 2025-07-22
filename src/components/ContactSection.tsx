@@ -29,14 +29,14 @@ const ContactSection = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect with me",
-      href: "#",
+      href: "https://www.linkedin.com/in/habiba-taha-584643317/",
       primary: false
     },
     {
       icon: Github,
       label: "GitHub",
       value: "View my work",
-      href: "#",
+      href: "https://github.com/Habiba1875",
       primary: false
     }
   ];

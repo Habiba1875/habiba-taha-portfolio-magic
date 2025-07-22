@@ -20,6 +20,7 @@ const ExperienceSection = () => {
     {
       title: "Machine Learning Trainee",
       company: "MCTI & NTI",
+      certificateUrl: "https://drive.google.com/file/d/1ZJd3FZbdW62p2l4rTwgAM_Acs4qYbCdH/view",
       location: "Minia",
       period: "09/2024 – 10/2024",
       description: [
@@ -33,6 +34,7 @@ const ExperienceSection = () => {
     {
       title: "Front-End Trainee",
       company: "ITI (Information Technology Institute)",
+      certificateUrl: "https://drive.google.com/file/d/1EBMm3ovhohSfy4Czlz7oUdFLhc4L42-2/view",
       location: "Remote",
       period: "07/2023 – 08/2023",
       description: [
@@ -72,10 +74,21 @@ const ExperienceSection = () => {
                   <CardTitle className="text-xl text-foreground">{exp.title}</CardTitle>
                   
                   <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
-                    <div className="flex items-center gap-1">
-                      <Building className="w-4 h-4" />
-                      <span>{exp.company}</span>
-                    </div>
+                     <div className="flex items-center gap-1">
+                       <Building className="w-4 h-4" />
+                       {exp.certificateUrl ? (
+                         <a 
+                           href={exp.certificateUrl} 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           className="hover:text-primary transition-colors hover:underline"
+                         >
+                           {exp.company}
+                         </a>
+                       ) : (
+                         <span>{exp.company}</span>
+                       )}
+                     </div>
                     <div className="flex items-center gap-1">
                       <MapPin className="w-4 h-4" />
                       <span>{exp.location}</span>
