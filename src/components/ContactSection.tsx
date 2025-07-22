@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Mail, Phone, MapPin, Linkedin, Github, Download } from "lucide-react";
+import cvPDF from "@/assets/FrontEndDeveloper-HabibaTaha.pdf";
 
 const ContactSection = () => {
   const contactInfo = [
@@ -127,13 +128,16 @@ const ContactSection = () => {
                 <p className="text-muted-foreground">
                   Get a detailed overview of my experience and qualifications.
                 </p>
-                <Button 
-                  variant="outline"
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground w-full"
-                >
-                  <Download className="w-4 h-4 mr-2" />
-                  Download CV
-                </Button>
+                <a href={cvPDF} download className="block w-full">
+  <Button 
+    variant="outline"
+    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground w-full"
+  >
+    <Download className="w-4 h-4 mr-2" />
+    Download CV
+  </Button>
+</a>
+
               </CardContent>
             </Card>
           </div>
