@@ -1,6 +1,7 @@
 import { ArrowDown, Download, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import habibaPortrait from "@/assets/habiba-photo.jpg";
+import cvPDF from "@/assets/FrontEndDeveloper-HabibaTaha.pdf";
 
 const HeroSection = () => {
   return (
@@ -38,14 +39,17 @@ const HeroSection = () => {
                 <Mail className="w-4 h-4 mr-2" />
                 Get In Touch
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-              >
-                <Download className="w-4 h-4 mr-2" />
-                Download CV
-              </Button>
+             <a href={cvPDF} download>
+  <Button 
+    variant="outline" 
+    size="lg"
+    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+  >
+    <Download className="w-4 h-4 mr-2" />
+    Download CV
+  </Button>
+</a>
+
             </div>
           </div>
           
