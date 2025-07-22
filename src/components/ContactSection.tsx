@@ -43,7 +43,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section className="section-padding bg-card">
+<section id="contact" className="section-padding bg-card">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12">
           <h2 className="section-title">Let's Work Together</h2>
