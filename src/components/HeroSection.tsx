@@ -32,13 +32,16 @@ const HeroSection = () => {
             </div>
             
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button 
-                className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
-                size="lg"
-              >
-                <Mail className="w-4 h-4 mr-2" />
-                Get In Touch
-              </Button>
+             <a href="#contact">
+  <Button 
+    className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
+    size="lg"
+  >
+    <Mail className="w-4 h-4 mr-2" />
+    Get In Touch
+  </Button>
+</a>
+
              <a href={cvPDF} download>
   <Button 
     variant="outline" 
