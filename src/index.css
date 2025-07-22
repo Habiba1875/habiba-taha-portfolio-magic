@@ -134,6 +134,9 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground font-poppins;
   }
+html {
+  scroll-behavior: smooth;
+}
 
   /* Custom scrollbar */
   ::-webkit-scrollbar {
